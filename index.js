@@ -7,11 +7,19 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
+<<<<<<< HEAD
   const camel = document.querySelectorAll('ul.ranked-list li');
+=======
+  const camel = document
+  .getElementByClassName('ranked-list')
+  .querySelectorAll('ul.ranked-list li');
+
+>>>>>>> 61f5fee9d49e953d4ed65124d6793e7910fe2de3
 for (let i = 0; i < camel.length; i++) {
   camel[i].innerHTML = (parseInt(camel[i].innerHTML,10) + n).toString();
 }
 }
+<<<<<<< HEAD
 
 
 function deepestChild() {
@@ -27,3 +35,5 @@ function deepestChild() {
       }
 }
 }
+=======
+>>>>>>> 61f5fee9d49e953d4ed65124d6793e7910fe2de3
